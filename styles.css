@@ -1,0 +1,172 @@
+body{ 
+    background-image:url(imagenes/fondo.jpg);
+    background-size: 20%;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;padding: 2%;
+    }
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.747);
+    padding: 2%;
+}
+span{
+    color: black;
+}
+header /*logo y desarrollo web*/ {display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+
+h1 /*Desrrrallo web*/ {color: #00AFE6;
+    background-color: white;
+    height: 2%;
+    text-shadow: 2px 10px 15px #00000080; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    margin: 1%;
+}
+
+.circulo /*no tocar*/ {border-radius: 50%;
+    width: 300px;
+padding: 1%;}
+
+hr /*linea*/ {border-width: 1px;
+ border-style: solid;
+margin: 1%;}
+
+h3 /*desarrollado por braulio*/ {
+    background-color: white;
+    float: right;
+    margin: 2%;
+}
+
+#intro /*subtitulos*/ {
+    font-size: 355%;
+}
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#intro2{
+    font-size: 355%;
+}
+
+#contenido1 /*donde esta las primeras 3 cajas*/ {
+    border: 7px solid;
+    display: flex;
+    padding: 1%;
+    margin: 50px;
+    height: 1050px;
+    
+}
+
+
+/*colores para titulo de cada caja*/
+#HTML{
+    background-color: #f1400ae3;
+    text-align: center;
+    color: white;
+    margin: 10px; 
+}
+#CSS{
+    background-color: #448bf5;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+#JS{
+    background-color: #21a110d7;
+    text-align: center;
+    color:white;
+    margin: 10px;
+}
+
+.caja1{
+    background-color: #f1ece8;
+    border: 2px solid;
+    font-size: 240%;
+    margin: 10px;
+}
+.caja2{
+    background-color: #e7eff1;
+    border: 2px solid;
+    font-size: 240%;
+    margin: 10px;
+    
+}
+.caja3{
+    background-color: #e8f1ee;
+    border: 2px solid;
+    font-size: 240%;
+    margin: 10px; 
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+}
+
+/*fin de las primeras cajas*/
+
+
+
+#contenido2{
+    border: 7px solid;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin: 50px;
+    height: 1000px;
+    
+}
+
+
+.caja11{
+    background-color: #f1ece8;
+    border: 2px solid;
+    font-size: 270%;
+    margin: 10px;
+    width: 35%;
+    
+}
+
+.caja22{
+    background-color: #e7eff1;
+    border: 2px solid;
+    font-size: 270%;
+    margin: 10px; 
+    width: 35%;
+}
+.caja33{
+    background-color: #e8f1ee;
+    border: 2px solid;
+    font-size:270%;
+    margin: 10px; 
+    width: 35%;
+}
+
+
+#casa{
+    display: flex;
+    justify-content: center;
+}
+
+#casa img{
+    border: 1px solid;
+    height: 600px;
+    box-shadow: 50px 50px 20px rgba(0, 0, 0, 0.440);
+}
+
+#footer{
+    border: 1px solid;
+    background-color: white;
+    box-shadow: 2px 10px 10px;
+    text-align: center;
+    padding: 1%;
+    font-size: 260%;
+    border-radius: 15px;
+    margin: 50px;
+}
+
